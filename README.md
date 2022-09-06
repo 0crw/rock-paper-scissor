@@ -2,4 +2,4 @@
 
 Rock-Paper-Scissor | The Odin Project
 
-Live-Preview => 
+Live-Preview => https://0crw.github.io/rock-paper-scissor/
