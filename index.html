@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Rock Paper Scissor</title>
+    <link rel="icon" href="/img/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div id="displayResult"></div>
+                <div class="restartBtn">
+                    <button id="resetBtn">Play Again!</button>
+                </div>
+            </div>
+        </div>   
+        <div class="title">
+            <a href="https://github.com/0crw" target="_blank"><h1>Rock Paper Scissor</h1></a>
+        </div>
+        <div class="display">
+            <div id="displayScore">
+                <div class="nameScore">
+                    <p>Human</p>
+                    <p>Computer</p>
+                </div>
+                <div class="numScore">
+                    <p id="displayHumanScore"></p>
+                    <p id="displayComputerScore"></p>
+                </div>
+            </div>
+            <div id="displayBattle"></div>  
+        </div>
+        <div class="buttons">
+            <button id="rockBtn" class="choiceBtn">Rock</button>
+            <button id="paperBtn" class="choiceBtn">Paper</button>
+            <button id="scissorBtn" class="choiceBtn">Scissor</button>
+        </div>
+    </div>
+</body>
+</html>
